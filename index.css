@@ -1,0 +1,38 @@
+body {
+    font-family: 'Josefin Sans', sans-serif;
+}
+#main-clock{
+    display: flex; 
+    justify-content: space-between;
+}
+#clock {
+    width: 574px; 
+    height: 130px; 
+    margin: 0 auto; 
+    display: flex; 
+    justify-content: space-between; 
+    background-color: lightgreen;
+    border: 1px solid black;
+    color: white;
+}
+
+#timeheader {
+    font-size: 30px;
+    margin-top: -20px;
+    padding-left: 5px;
+}
+
+#livetime {
+    font-size: 30px; 
+    /* margin-top: 20px;
+    padding-right: 5px; */
+    justify-content: flex-end;
+    text-align: right; 
+    padding-top: 20px; 
+    padding-right: 5px;
+}
+
+#clock-header {
+    /* display: flex; 
+    margin: 0 auto; */
+}
